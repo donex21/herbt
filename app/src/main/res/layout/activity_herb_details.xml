@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg"
+    tools:ignore="RtlCompat"
+    tools:context=".HerbsDetailsActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="395dp"
+        android:layout_height="360dp"
+        app:srcCompat="@android:drawable/sym_def_app_icon" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="221dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="150dp"
+                android:text="Bisaya Name"
+                android:textColor="#0A610C"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/bisayatextview"
+                android:layout_width="221dp"
+                android:layout_height="42dp"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="221dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="150dp"
+                android:text="English Name"
+                android:textColor="#0A610C"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/englishnametextview"
+                android:layout_width="395dp"
+                android:layout_height="40dp"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="221dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="150dp"
+                android:text="Family Name"
+                android:textColor="#0A610C"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/familytextview"
+                android:layout_width="393dp"
+                android:layout_height="42dp"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="221dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="150dp"
+                android:text="Location"
+                android:textColor="#0A610C"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/locationtextview"
+                android:layout_width="391dp"
+                android:layout_height="47dp"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="221dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="150dp"
+                android:text="Scientific Name"
+                android:textColor="#0A610C"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/sciencenametextview"
+                android:layout_width="389dp"
+                android:layout_height="43dp"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:textSize="20sp"/>
+
+
+            <TextView
+                android:layout_width="221dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="150dp"
+                android:text="Status"
+                android:textColor="#0A610C"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/statustextview"
+                android:layout_width="382dp"
+                android:layout_height="50dp"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="221dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="150dp"
+                android:text="Type"
+                android:textColor="#0A610C"
+                android:textSize="20sp"
+              />
+            <TextView
+                android:id="@+id/typetextview"
+                android:layout_width="385dp"
+                android:layout_height="42dp"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="221dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="150dp"
+                android:text="Treatments"
+                android:textColor="#0A610C"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/treatmentstextview"
+                android:layout_width="385dp"
+                android:layout_height="102dp"
+                android:layout_marginBottom="8dp"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="221dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="150dp"
+                android:text="Procedure"
+                android:textColor="#0A610C"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/proceduretextview"
+                android:layout_width="391dp"
+                android:layout_height="47dp"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

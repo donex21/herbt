@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@mipmap/bg"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        android:background="@mipmap/bg">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_viewsearch"
+            android:icon="@drawable/ic_menu_view"
+            android:title="View Herbal Plants" />
+        <item
+            android:id="@+id/nav_scan"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Scan" />
+        <item
+            android:id="@+id/nav_nearbystore"
+            android:icon="@drawable/ic_menu_store"
+            android:title="Nearby Store" />
+    </group>
+
+    <item android:title="Controls"
+        android:background="@mipmap/bg">
+        <menu>
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/about_us_icon"
+                android:title="About Us"
+                />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_logout"
+                android:title="Logout"/>
+        </menu>
+    </item>
+
+</menu>
